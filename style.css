@@ -1,5 +1,6 @@
 body {
-  max-width: 100%;
+  background-color: #fff;
+  max-width: 1020px;
   text-align: center;
   margin: auto;
   background-repeat: no-repeat;
@@ -15,9 +16,9 @@ ul{
 }
 
 /* header */
-
 .container{
   width: 100%;
+  height: auto;
   background-color: #375B4B;
 }
 
@@ -59,13 +60,13 @@ h1,h2{
 }
 /* webフォント */
 
-h1,.button{
+h1,.button,#item{
   font-family: 'Kaisei Decol', serif;
 }
 
 .title_font a{
   font-family: 'Dancing Script', cursive;
-  font-size: 1.5em;
+  font-size: 100%;
   padding: 1em;
 }
 
@@ -78,7 +79,7 @@ h2{
 #photo {
   /* width: 100%; */
  
-/* 画像サイズ　縦/横*100%でpadding-topを指定 */
+/* 画像サイズ 縦/横*100%でpadding-topを指定 */
   padding-top: 70%;
   margin: 0 auto;
   text-align: left;
@@ -93,16 +94,20 @@ h2{
 }
 
 /* スクロールアニメーション*/
+
+#photo{
+  position:  relative; 
+}
+
 #scroll{
   position: absolute;
-  bottom: 20px;
-  left: 50%;
-  z-index: 2;
+  height: 170px;
+  text-align: center;
+  z-index: 20;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   text-decoration: none;
-
   padding-top: 60px;
 }
 
@@ -167,7 +172,7 @@ h2{
 /* topへ戻るボタン*/
 .button{
   position: fixed;
-  right: 10px;
+  right: 10%;
   bottom: 0;
   font-size: 20px;
   color: #fff;
@@ -292,7 +297,7 @@ a:hover{
 #nav {
   position: fixed;
   /* 枠外に消えるように-の値  */
-  right: -290px;
+  right: -298px;
   top: 0;
   width: 250px;
   height: 100%;
@@ -345,7 +350,7 @@ div #line {
 
 /* 三本線のスタイルを決める */
 
-#line span {
+/* #line span {
   display: block;
   width: 60px;
   height: 10px;
@@ -353,7 +358,7 @@ div #line {
   position: absolute;
   left: 10px;
   transition: all 0.5s ease;
-}
+} */
 
 /* 三本線のスタイルを決める */
 
