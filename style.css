@@ -1,5 +1,5 @@
 body {
-  background-color: #000;
+  background-color: #fff;
   max-width: 1020px;
   text-align: center;
   margin: auto;
@@ -54,7 +54,7 @@ ul{
 
 /* h1,h2の装飾------------------- */
 h1,h2{
-  color:#000;
+  color:#fff;
   padding: 0.5em;
   transform: skewX(-20deg);
 }
