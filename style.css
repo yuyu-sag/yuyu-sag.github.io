@@ -54,7 +54,7 @@ ul{
 
 /* h1,h2の装飾------------------- */
 h1,h2{
-  color:#fff;
+  color:#000;
   padding: 0.5em;
   transform: skewX(-20deg);
 }
@@ -70,7 +70,7 @@ h1,.button,#item{
   padding: 1em;
 }
 
-.article_2{
+h2{
   color:#fff;
   font-size:large;
   background-color: #A28D73;
