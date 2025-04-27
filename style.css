@@ -101,7 +101,7 @@ h2{
 
 #scroll{
   position: absolute;
-  height: 170px;
+  height: 200px;
   text-align: center;
   z-index: 20;
   display: inline-block;
