@@ -204,8 +204,15 @@ h2{
   width: 80%;
   margin:auto;
 }
-/* width 600px以上でに分割*/
+/* width 600px以上*/
 @media (min-width: 600px) {
+  .title-block{
+  flex:none;
+  }
+  .title_font a {
+    font-size: 70%;
+    padding: 0.1em;
+  }
   #strings,#access {
     display: flex;
   }
